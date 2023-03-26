@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foodpanda</title> 
+	<link rel="icon"  href="https://cdn1.cybassets.com/media/W1siZiIsIjIzMjY4L2F0dGFjaGVkX3Bob3Rvcy8xNjY1NjcxOTQ5X2Zvb2RwYW5kYS1hcHAtaWNvbi13b3JkbWFya193aGl0ZS5wbmcucG5nIl1d.png?sha=13b8e4fea10252ff">
+
+
+
+
+
+	<style>
+		*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+         }
+
+
+    header{
+                 background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-model1-opt-scaled.jpg);
+                 width:100%;
+                 height:600px;
+                 background-position: center;
+                 background-size: cover;
+
+
+          }
+
+    nav{
+
+      background: white;
+      width: 100%;
+      height:70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 90px;
+      background-position: fixed;
+     top: 0px;
+     z-index: 1;
+
+
+      
+       }
+		
+		
+    .menu a{
+
+       text-decoration: none;
+       font-family:"museo-sans";
+       color: #e670a4;
+       font-size: 20px;
+       padding: 0 12px;
+
+
+       }
+    header h1{
+
+        font-family: "museo-sans" sans-serif;
+        text-align:center;
+        color: white;
+        margin-top:199PX;
+        font-size: 40px;
+        letter-spacing:10PX;
+        word-spacing: 5px;
+        text-shadow: 8px 3px 6px grey;
+             }
+
+    .CHOOSEYOURLOCATION{  
+
+    background: #afafaf;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+
+              }
+
+    .chooseyourlocation .c{ 
+
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding-right: 10px;
+    font-family:"museo-sans",sans-around;
+
+      }
+
+    .c h4{
+
+    color: white;
+    font-family:sans-serif;
+
+          }
+
+    .f{
+
+    flex: -1;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+
+    .f img{
+        
+        padding: 0 8px 8px;
+        height: 35px;
+        border-radius: 3px;
+
+    }
+
+    .about{
+
+       background:white;
+       width: 100%;
+       height: 600px;
+       display: flex;
+       align-items: center;
+       padding: 0px 267px;
+       text-align: center;
+
+    }
+
+    
+
+    .container h2{
+
+    	margin: 0 0 20px;
+    	text-transform: uppercase;
+    	font-family:"museo-sans";
+    	font-weight: bold;
+    	letter-spacing: 1px;
+    	color: #d70f64;
+    }
+
+    .container p{
+
+    	margin: 0 0 25px;
+    	font-size: 18px;
+    	line-height: 1.5;
+    	font-weight: 300;
+    } 
+
+    .container a button{
+
+    	color: white;
+        width: 250px;
+        height: 41px;
+    	background:  #d70f64;
+    	border:none;
+    	font-weight: bold;
+    	margin-top: 23px;
+    	border-radius: 0 20PX;
+
+
+    }                 
+    
+    .CAREERS{
+         
+         background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-rider-opt.jpg);
+    	 width: 100%;
+    	 height:550px;
+    	 background-position: center;
+    	 background-size: cover;
+    	 background-attachment: fixed;
+    	 display: flex;
+         align-items: center;
+         padding: 0px 267px;
+         text-align: center;
+
+    	
+    }
+        
+        .container2 h2{
+
+    	margin: 0 0 20px;
+    	text-transform: uppercase;
+    	font-family:"museo-sans";
+    	font-weight: bold;
+    	letter-spacing: 1px;
+    	color: #d70f64;
+    	text-align: center;
+    }
+
+    .container2 p{ 
+
+        color: white;
+    	margin: 0 0 25px;
+    	font-size: 18px;
+    	line-height: 1.5;
+    	font-weight: 300;
+    	text-align: center;
+    } 
+
+    .container2 a button{
+
+    	color: white;
+        width: 250px;
+        height: 41px;
+    	background:  #d70f64;
+    	border:none;
+    	font-weight: bold;
+    	margin-top: 23px;
+    	text-align: center;
+
+
+    }                 
+
+       
+     .PRESS{
+
+    	 background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg);
+    	 width: 100%;
+    	 height:550px;
+    	 background-position: center;
+    	 background-size: cover;
+    	 background-attachment: fixed;
+    	 display: flex;
+         align-items: center;
+         padding: 0px 267px;
+         text-align: center;
+    }
+
+
+        .container3 h2{
+
+    	margin: 0 0 20px;
+    	text-transform: uppercase;
+    	font-family:"museo-sans";
+    	font-weight: bold;
+    	letter-spacing: 1px;
+    	color: #d70f64;
+    }
+
+    .container3 p{ 
+
+        color: white;
+    	margin: 0 0 25px;
+    	font-size: 18px;
+    	line-height: 1.5;
+    	font-weight: 300;
+    } 
+
+    .container3 a button{
+
+    	color: white;
+        width: 250px;
+        height: 41px;
+    	background:  #d70f64;
+    	border:none;
+    	font-weight: bold;
+    	margin-top: 23px;
+
+
+    } 
+
+
+    .contact{
+
+       background:#d70f64;
+       width: 100%;
+       height: 600px;
+       display: flex;
+       align-items: center;
+       padding: 0px 267px;
+       text-align: center;
+
+    }
+
+    
+
+    .container4 h2{
+
+    	margin: 0 0 20px;
+    	text-transform: uppercase;
+    	font-family:"museo-sans";
+    	font-weight: bold;
+    	letter-spacing: 1px;
+    	color: white;
+    }
+
+    .container4 p{
+
+    	color: white;
+
+    	margin: 0 0 25px;
+    	font-size: 18px;
+    	line-height: 1.5;
+    	font-weight: 300;
+    } 
+
+    .container4 a button{
+
+    	color: #d70f64;
+        width: 250px;
+        height: 41px;
+    	background:white;
+    	border:none;
+    	font-weight: bold;
+    	margin-top: 23px;
+
+
+    }   
+
+
+    
+
+
+  .footer{
+
+    background: white;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 92px;
+    text-decoration:none; 
+
+  }
+      
+     
+     
+       
+		                              
+                
+
+          </style>
+</head>
+<body>
+	<header>
+	 <nav> 
+	 	<div class="logo">
+	 		<img src="https://www.foodpanda.com/wp-content/uploads/2019/12/food-panda-logo-vector.png" style="width: 148px;">
+		
+	    </div>
+	<div class="menu">
+		<a href="">ABOUT</a>
+		<a href="">CAREERS</a>
+		<a href="">PRESS</a>
+		<a href="">ORDER</a>
+	</div>
+
+	
+	
+	
+	</nav>
+	<h1>BRINGING GOOD FOOD INTO YOUR <br>EVERYDAY</h1>
+	</header>
+	<section class="CHOOSEYOURLOCATION">
+
+		<div class="c">
+			<h4>CHOOSE YOUR LOCATION:
+</h4>
+			
+
+		</div>
+		<div class="f">
+			<img src="https://www.foodpanda.com/wp-content/uploads/2021/02/Bangladesh.png">
+			
+			<img src="https://www.foodpanda.com/wp-content/uploads/2020/02/cambodia-e1582274460360.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/HK-1.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/HK-1.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/MY.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2020/02/myanmar-e1582274330314.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/PK.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/PH.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/SG-1.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/TW.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2015/07/TH.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2021/09/HU.png">
+
+			<img src="https://www.foodpanda.com/wp-content/uploads/2020/05/romania.png">
+			
+			<img src="https://www.foodpanda.com/wp-content/uploads/2021/09/SK.png">
+
+			
+		</div>
+		
+
+
+
+	</section>
+
+	<section class="about">
+
+		<div class="container">
+			<h2>About us</h2>
+			<p>For us, it's not just about bringing you good food from your favourite restaurants. It's about making a connection, which is why we sit down with the chefs, dreaming up menus that will arrive fresh and full of flavour. Try us!</p>
+
+			<a href="/about">
+				<button class="btn btn-default">LEARN MORE</button>
+			</a>
+			</div>
+		
+    </section>
+    <section class="CAREERS">
+
+		<div class="container2">
+			<h2>CAREERS</h2>
+			<p>For us, it's not just about bringing you good food from your favourite restaurants. It's about making a connection, which is why we sit down with the chefs, dreaming up menus that will arrive fresh and full of flavour. Try us!</p>
+
+			<a href="/CAREERS">
+				<button class="btn btn-default">JOIN US</button>
+			</a>
+			</div>
+		
+    </section>
+
+    
+     <section class="PRESS">
+
+		<div class="container3">
+			<h2>PRESS</h2>
+			<p>We've become one of the leading players in 15 markets worldwide across Europe, Canada, Australia and Asia. Find out why the press is buzzing about our work.</p>
+
+			<a href="/PRESS">
+				<button class="btn btn-default">SEE THE LATEST</button>
+			</a>
+			</div>
+		
+    </section>
+    <section class="contact">
+
+		<div class="container4">
+			<h2>CONTACT</h2>
+			<p>It's food lovers like you who inspire us to do what we do. Your comments, ideas and questions push us to go that extra mile, every time. So drop us a line!</p>
+
+			<a href="/CONTACT">
+				<button class="btn btn-default">GET IN TOUCH</button>
+			</a>
+			</div>
+		
+    </section>
+
+
+    
+	 	
+	 		
+
+           <div class="footer">
+	 		<img src="https://www.foodpanda.com/wp-content/uploads/2019/12/food-panda-logo-vector.png" style="width: 148px;"
+
+             
+             <div class="icon">
+                <a href="">imprint</a>
+             	<a href="">security</a>
+             	<a href="">privacy</a>
+             	 </div>
+
+
+
+
+
+
+
+
+		
+	       </div>
+
+	   
+</body>
